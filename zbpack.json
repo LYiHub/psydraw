@@ -1,0 +1,5 @@
+{
+    "streamlit": {
+        "entry": "src/main.py"
+    }
+}
