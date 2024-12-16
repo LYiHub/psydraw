@@ -35,7 +35,7 @@ This repository contains only the code structure of our project due to ethical c
 - All results require interpretation and validation by qualified mental health professionals.
 
 ### Access to Full System
-For research or clinical purposes requiring access to the complete system (including prompts), please contact us at: [zhangyiqun344@gmail.com]. Access will only be granted after:
+For research or clinical purposes requiring access to the complete system (including prompts), please contact us at: [project.htp@lyi.ai]. Access will only be granted after:
 1. Verification of professional credentials
 2. Review of intended use case
 3. Agreement to ethical guidelines and usage terms
