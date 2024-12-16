@@ -11,9 +11,6 @@
   <a href="README_CN.md">
     <img src="https://img.shields.io/badge/语言-中文-blue?style=for-the-badge" alt="中文">
   </a>
-  <a href="https://psysraw.zeabur.app/HTP_Test">
-    <img src="https://img.shields.io/badge/演示-在线网站-blue?style=for-the-badge" alt="在线演示">
-  </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-GPL%203.0-green?style=for-the-badge" alt="许可证">
   </a>
