@@ -137,8 +137,9 @@ class HTPAnalyzer:
             width=50
         )
         self.preview_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        default_text = "Welcome to HTP Drawing Analyzer / 欢迎使用HTP绘画分析器."
+        self.preview_text.insert('1.0', default_text)
         self.preview_text.config(state='disabled')
-
     def setup_tooltips(self):
         """设置工具提示"""
         self.create_tooltip(self.analyze_btn, 
@@ -294,8 +295,7 @@ For more information, visit our website / 更多信息，请访问我们的网�
                 
             with open(report_filename, "w", encoding="utf-8") as f:
                 f.write(export_data)
-                
-            # 更新预览区域
+          
             self.preview_text.config(state='normal')
             self.preview_text.delete('1.0', tk.END)
             self.preview_text.insert('1.0', export_data)
