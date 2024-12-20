@@ -2,7 +2,7 @@
   <img src="assets/logo2.png" alt="PsyDraw Logo" width="200"/>
 </p>
 
-<h1 align="center">PsyDraw: A Multi-Agent Multimodal System for Mental Health Detection in Left-Behind Children</h1>
+<h1 align="center">PsyDraw: A Multi-Agent Multimodal System for Mental Health Screening in Left-Behind Children</h1>
 
 <p align="center">
   <a href="README.md">
@@ -13,6 +13,9 @@
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-GPL%203.0-green?style=for-the-badge" alt="License">
+  </a>
+  <a href="https://arxiv.org/abs/2412.14769">
+    <img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge" alt="Paper">
   </a>
 </p>
 
@@ -126,3 +129,19 @@ This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) f
 ## ⚠️ Disclaimer
 
 PsyDraw is strictly a professional screening aid tool. It must not be used as a standalone diagnostic tool or a substitute for professional medical evaluation. The system is designed to support, not replace, the expertise of qualified mental health professionals. Any implementation or use of this system must be under professional supervision.
+
+## 📚 Citation
+
+If you find this work helpful, please cite our paper:
+
+```bibtex
+@misc{zhang2024psydrawmultiagentmultimodalmental,
+      title={PsyDraw: A Multi-Agent Multimodal System for Mental Health Screening in Left-Behind Children}, 
+      author={Yiqun Zhang and Xiaocui Yang and Xiaobai Li and Siyuan Yu and Yi Luan and Shi Feng and Daling Wang and Yifei Zhang},
+      year={2024},
+      eprint={2412.14769},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.14769}, 
+}
+```

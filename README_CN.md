@@ -14,6 +14,9 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-GPL%203.0-green?style=for-the-badge" alt="许可证">
   </a>
+  <a href="https://arxiv.org/abs/2412.14769">
+    <img src="https://img.shields.io/badge/论文-arXiv-red?style=for-the-badge" alt="论文">
+  </a>
 </p>
 
 <p align="center">
@@ -43,7 +46,7 @@
 - 所有实施必须遵守心理健康评估相关的伦理准则和法规
 
 ## 项目概述
-留守儿童由于父母外出务工面临严重的心理健康挑战。房树人测验（HTP）是一种心理评估方法，具有较高的儿童参与度和配合度，但需要专业解释，限制了其在资源匮乏地区的应用。为解决这一问题，我们提出了**PsyDraw**，一个基于多模态大语言模型的多智能体系统，用于辅助分析HTP绘画并评估留守儿童的心理健康状况。系统工作流程包括特征分析和报告生成两个主要阶段，由多个协作智能体完成。我们对290名小学生的HTP绘画进行了系统评估，生成的心理健康报告由班主任评价。结果显示，71.03%的分析被评为**匹配**，26.21%被评为**基本匹配**，仅2.41%被评为**不匹配**。这些发现展示了PsyDraw在辅助专业人员进行HTP测试分析方面的潜力。
+留守儿��由于父母外出务工面临严重的心理健康挑战。房树人测验（HTP）是一种心理评估方法，具有较高的儿童参与度和配合度，但需要专业解释，限制了其在资源匮乏地区的应用。为解决这一问题，我们提出了**PsyDraw**，一个基于多模态大语言模型的多智能体系统，用于辅助分析HTP绘画并评估留守儿童的心理健康状况。系统工作流程包括特征分析和报告生成两个主要阶段，由多个协作智能体完成。我们对290名小学生的HTP绘画进行了系统评估，生成的心理健康报告由班主任评价。结果显示，71.03%的分析被评为**匹配**，26.21%被评为**基本匹配**，仅2.41%被评为**不匹配**。这些发现展示了PsyDraw在辅助专业人员进行HTP测试分析方面的潜力。
 
 <p align="center">
   <img src="assets/workflow.png" alt="PsyDraw工作流程"/>
@@ -126,3 +129,20 @@ pyinstaller htp_analyzer.spec
 ## ⚠️ 免责声明
 
 PsyDraw严格作为专业筛查辅助工具。它不得作为独立的诊断工具或替代专业医疗评估。该系统旨在支持而非取代合格心理健康专业人员的专业知识。任何系统的实施或使用都必须在专业监督下进行。 
+
+## 📚 引用
+
+如果您觉得本工作对您有帮助，请引用我们的论文：
+
+```bibtex
+@misc{zhang2024psydrawmultiagentmultimodalmental,
+      title={PsyDraw: A Multi-Agent Multimodal System for Mental Health Screening in Left-Behind Children}, 
+      author={Yiqun Zhang and Xiaocui Yang and Xiaobai Li and Siyuan Yu and Yi Luan and Shi Feng and Daling Wang and Yifei Zhang},
+      year={2024},
+      eprint={2412.14769},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.14769}, 
+}
+```
+  </rewritten_file>
