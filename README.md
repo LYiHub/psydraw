@@ -30,15 +30,18 @@
 This repository contains only the code structure of our project due to ethical considerations in mental health assessment. The system's prompts and analytical components are not open-sourced to prevent misuse and ensure proper application.
 
 ### Professional Use Only
-- This tool is exclusively designed to assist qualified mental health professionals (psychiatrists, psychological counselors, and school counselors) in preliminary screening.
-- It MUST NOT be used for self-assessment or peer assessment by individuals without professional qualifications.
-- All results require interpretation and validation by qualified mental health professionals.
+- This tool is designed to assist qualified mental health professionals (psychiatrists, counselors, school advisors) in preliminary screenings. Non-professionals must not use it for self/peer assessments. All results require interpretation and validation by qualified professionals.
+- The House-Tree-Person (HTP) test is not a diagnostic tool. Results are for reference only and cannot conclusively evaluate a participant’s psychological state, personality, or capabilities.
+- Participants’ drawings and behaviors reflect subjective perspectives and transient emotional states, not long-term psychological traits. Results must not be used in contexts that may harm participants or influence evaluations, decisions, or selections
+- Developers must protect participant confidentiality (personal data, artworks). Content will not be shared without consent, except in cases of force majeure (e.g., natural disasters, legal mandates).
+- By using this tool, developers acknowledge its purpose, methodology, and limitations. Participants retain the right to withdraw at any time without penalty. The team assumes no liability for misuse or subsequent damages.
 
 ### Access to Full System
 For research or clinical purposes requiring access to the complete system (including prompts), please contact us at: [project.htp@lyi.ai]. Access will only be granted after:
 1. Verification of professional credentials
 2. Review of intended use case
-3. Agreement to ethical guidelines and usage terms
+3. Instructions for use
+4. Agreement to ethical guidelines and usage terms
 
 ### Risk Prevention
 - Misuse of psychological assessment tools can lead to incorrect interpretations and potentially harmful outcomes
